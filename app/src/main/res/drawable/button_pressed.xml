@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="90"
+        android:startColor="@android:color/white"
+        android:endColor="@android:color/darker_gray"/>
+    <stroke
+        android:color="@color/colorPrimary"
+        android:width="3dp"
+        android:dashGap="3dp"
+        android:dashWidth="15dp"/>
+    <corners android:radius="@dimen/activity_horizontal_margin"/>
+    <padding
+        android:bottom="@dimen/activity_horizontal_margin"
+        android:left="@dimen/activity_horizontal_margin"
+        android:right="@dimen/activity_horizontal_margin"
+        android:top="@dimen/activity_horizontal_margin" />
+
+</shape>

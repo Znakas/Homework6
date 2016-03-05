@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Homework 6</string>
+    <string name="String_enter">Please enter Your name</string>
+    <string name="Field_1">Field 1</string>
+    <string name="Field_2">Field 2</string>
+    <string name="Field_3">Field 3</string>
+    <string name="licence">GNU GENERAL PUBLIC LICENSE
+    Version 2, June 1991
+
+    Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+    675 Mass Ave, Cambridge, MA 02139, USA
+    Everyone is permitted to copy and distribute verbatim copies
+    of this license document, but changing it is not allowed</string>
+
+</resources>
+

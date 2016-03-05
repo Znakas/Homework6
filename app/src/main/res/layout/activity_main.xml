@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="thinkmobiles.com.homework6.MainActivity">
+
+    <TextView
+        android:id="@+id/myPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cat"/>
+    <Button
+        android:id="@+id/button_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/myPic"
+        android:background="@drawable/button_statelist"
+        android:text="@string/String_enter"/>
+    <EditText
+        android:id="@+id/edit_text_field1"
+        style="@style/forEdits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_enter"
+        android:background="@drawable/edit_statelist"
+        android:text="@string/Field_1"/>
+    <EditText
+        android:id="@+id/edit_text_field2"
+        style="@style/forEdits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_field1"
+        android:background="@drawable/edit_statelist"
+        android:text="@string/Field_2"/>
+    <EditText
+        android:id="@+id/edit_text_field3"
+        style="@style/forEdits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_text_field2"
+        android:background="@drawable/edit_statelist"
+        android:enabled="false"
+        android:text="@string/Field_3"/>
+    <TextView
+        android:id="@+id/my9Pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my9pic"
+        android:layout_below="@id/edit_text_field3"
+        android:text="@string/licence"/>
+    <LinearLayout android:id="@+id/action_restrange_layout"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/my9Pic"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:id="@+id/action_restrange"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:clickable="true"
+            android:background="@drawable/r_statelist"/>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
